@@ -50,7 +50,7 @@ body{
 }
 .soon {
 	position:absolute;
-  	top:50%;
+  	top:35%;
   	left:15%;
   	right: 15%;
   	margin-top:-87px; /* this is half the height of your div*/  
@@ -107,4 +107,20 @@ input{
 .soon form input[type="submit"]:hover{
 	background-color:#fff;
 	background: rgba(255, 255, 255, 0.3);
+}
+
+.count {
+    position:relative;
+    margin-bottom:4%;
+    font-family: 'Lato';
+}
+.clock {
+    font-size:75px;
+    text-align:center;
+}
+.count h3 {
+    position: absolute;
+    right: 28%;
+    top: 110%;
+    color: #ffffff;
 }
