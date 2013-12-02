@@ -49,11 +49,18 @@ body{
 	transition: ease-in-out all 300ms;
 }
 .soon {
-	position:absolute;
-  	top:35%;
-  	left:15%;
-  	right: 15%;
-  	margin-top:-87px; /* this is half the height of your div*/  
+    position:absolute;
+    width: 600px;
+    height: 200px;
+    left:0; 
+    right:0;
+    top:0; 
+    bottom:0;
+    margin-top:50%;
+    margin:auto;
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
 }
 .soon h1 {
 	text-align: center;
